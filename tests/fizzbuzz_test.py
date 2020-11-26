@@ -12,6 +12,9 @@ class TestFizzBuzz(unittest.TestCase):
     def test_fizzbuzz__5_returns_buzz(self):
         self.assertEqual("Buzz", fizzbuzz(5))
 
+    def test_fizzbuzz__10_returns_buzz(self):
+        self.assertEqual("Buzz", fizzbuzz(10))
+
     def test_fizzbuzz__15_returns_fizzbuzz(self):
         self.assertEqual("FizzBuzz", fizzbuzz(15))
 
