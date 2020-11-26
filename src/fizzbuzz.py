@@ -6,4 +6,6 @@ def fizzbuzz(number):
         return "Fizz"
     elif number == 5:
         return "Buzz"
+    else:
+        return str(number)
 
